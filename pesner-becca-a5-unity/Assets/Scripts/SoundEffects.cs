@@ -10,7 +10,7 @@ public class SoundEffects : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) == true)
         {
-            GetComponent<_audioSource>().Play();
+            GetComponent<AudioSource>().Play();
         }
     }
 }
