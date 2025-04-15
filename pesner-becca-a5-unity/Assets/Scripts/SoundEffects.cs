@@ -8,7 +8,7 @@ public class SoundEffects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown)(0) == true)
+        if (Input.GetMouseButtonDown(0) == true)
         {
             GetComponent<_audioSource>().Play();
         }
